@@ -1,1 +1,13 @@
 CLASS net/minecraft/unmapped/C_phguyrob net/minecraft/world/event/vibration/VibrationSelector
+	FIELD f_atdlpzey currentVibrationInfo Ljava/util/Optional;
+	METHOD <init> (Ljava/util/Optional;J)V
+		ARG 1 optionalInfo
+	METHOD m_amhqivjk (JLnet/minecraft/unmapped/C_xctzkvoy;)Lorg/apache/commons/lang3/tuple/Pair;
+		ARG 2 info
+	METHOD m_hexelesw (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+		ARG 0 instance
+	METHOD m_nlinvzpb shouldReplace (Lnet/minecraft/unmapped/C_xctzkvoy;J)Z
+		ARG 1 vibrationInfo
+	METHOD m_okgfvvzk clear ()V
+	METHOD m_tiiubqjm tryReplace (Lnet/minecraft/unmapped/C_xctzkvoy;J)V
+		ARG 1 vibrationInfo

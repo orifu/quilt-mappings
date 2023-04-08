@@ -8,9 +8,14 @@ CLASS net/minecraft/unmapped/C_ueeoxhql net/minecraft/entity/passive/AllayEntity
 	FIELD f_kkdwnmbg DUPLICATION_INGREDIENT Lnet/minecraft/unmapped/C_tcpsydrv;
 	FIELD f_mtjnjlex DUPLICATION_COOLDOWN I
 	FIELD f_oqiruvkz DANCING Lnet/minecraft/unmapped/C_rinmcaxy;
+	FIELD f_oxparwgy dancingTicks F
 	FIELD f_qtotnwas duplicationCooldown J
+	FIELD f_uwlxwlku jukeboxListener Lnet/minecraft/unmapped/C_wpaexsvv;
 	FIELD f_xaexqzwn SENSORS Lcom/google/common/collect/ImmutableList;
 	METHOD m_amirmypp createAttributes ()Lnet/minecraft/unmapped/C_sdjuuzrz$C_tehwrjus;
+	METHOD m_evgblctp areItemsEqual (Lnet/minecraft/unmapped/C_sddaxwyk;Lnet/minecraft/unmapped/C_sddaxwyk;)Z
+		ARG 1 stack
+		ARG 2 stack2
 	METHOD m_ffajaezn isDancing ()Z
 	METHOD m_fonjkttd isOnPickupCooldown ()Z
 	METHOD m_gfmqthlt setDuplicationCooldown ()V
@@ -23,7 +28,19 @@ CLASS net/minecraft/unmapped/C_ueeoxhql net/minecraft/entity/passive/AllayEntity
 	METHOD m_meucdsjx isPanicking ()Z
 	METHOD m_pwttetfa isDuplicationItem (Lnet/minecraft/unmapped/C_sddaxwyk;)Z
 	METHOD m_qqqbecdb canDuplicate ()Z
+	METHOD m_rajypowm areDifferentPotions (Lnet/minecraft/unmapped/C_sddaxwyk;Lnet/minecraft/unmapped/C_sddaxwyk;)Z
+		ARG 1 stack
+		ARG 2 stack2
+	METHOD m_saqrjapl updateJukeboxPos (Lnet/minecraft/unmapped/C_hynzadkk;Z)V
+		ARG 2 playing
 	METHOD m_txcoglmk hasItem ()Z
 	METHOD m_vhszdjde duplicate ()V
 	METHOD m_ygywdeat setDancing (Z)V
 		ARG 1 dancing
+	CLASS C_mgclyirt JukeboxListener
+		FIELD f_wpiaphaa range I
+		FIELD f_xtnnnjvy positionSource Lnet/minecraft/unmapped/C_duzerrml;
+		METHOD <init> (Lnet/minecraft/unmapped/C_ueeoxhql;Lnet/minecraft/unmapped/C_duzerrml;I)V
+			ARG 2 positionSource
+			ARG 3 range
+	CLASS C_zqcanybs AllaySculkSensorListenerCallback

@@ -2,14 +2,41 @@ CLASS net/minecraft/unmapped/C_thoxkfuv net/minecraft/world/event/listener/Sculk
 	FIELD f_krqxbtlb VIBRATION_FREQUENCIES_BY_EVENT Lit/unimi/dsi/fastutil/objects/Object2IntMap;
 	FIELD f_lddfjvgl delay I
 	FIELD f_mhohlxsl callback Lnet/minecraft/unmapped/C_thoxkfuv$C_gsinbsto;
+	FIELD f_okctfeja vibrationSelector Lnet/minecraft/unmapped/C_phguyrob;
 	FIELD f_osffoqbc positionSource Lnet/minecraft/unmapped/C_duzerrml;
+	FIELD f_tuftkvno VIBRATION_RESONATION_EVENTS [Lnet/minecraft/unmapped/C_cgkchrmc;
+	FIELD f_ythehzui vibrationInfo Lnet/minecraft/unmapped/C_xctzkvoy;
+	METHOD <init> (Lnet/minecraft/unmapped/C_duzerrml;Lnet/minecraft/unmapped/C_thoxkfuv$C_gsinbsto;)V
+		ARG 1 positionSource
+		ARG 2 callback
+	METHOD <init> (Lnet/minecraft/unmapped/C_duzerrml;Lnet/minecraft/unmapped/C_thoxkfuv$C_gsinbsto;Lnet/minecraft/unmapped/C_xctzkvoy;Lnet/minecraft/unmapped/C_phguyrob;I)V
+		ARG 1 positionSource
+		ARG 2 callback
+		ARG 3 vibrationInfo
+		ARG 4 vibrationSelector
+		ARG 5 delay
 	METHOD m_dfgyxazm tick (Lnet/minecraft/unmapped/C_cdctfzbn;)V
 		ARG 1 world
 	METHOD m_dxfrwlll (Lnet/minecraft/unmapped/C_thoxkfuv;)Ljava/util/Optional;
 		ARG 0 arg
+	METHOD m_hotirhuh getResonationEvent (I)Lnet/minecraft/unmapped/C_cgkchrmc;
+		ARG 0 frequency
 	METHOD m_jsomwihs (Lnet/minecraft/unmapped/C_thoxkfuv;)Lnet/minecraft/unmapped/C_duzerrml;
 		ARG 0 arg
+	METHOD m_kfeubbdk (Lnet/minecraft/unmapped/C_thoxkfuv$C_gsinbsto;Lnet/minecraft/unmapped/C_duzerrml;Ljava/util/Optional;Lnet/minecraft/unmapped/C_phguyrob;Ljava/lang/Integer;)Lnet/minecraft/unmapped/C_thoxkfuv;
+		ARG 1 positionSource
+		ARG 2 optionalVibrationInfo
+		ARG 3 vibrationSelector
+		ARG 4 delay
+	METHOD m_mhwavitb (Lit/unimi/dsi/fastutil/objects/Object2IntOpenHashMap;)V
+		ARG 0 frequencies
+	METHOD m_mmewcwbe getCallback ()Lnet/minecraft/unmapped/C_thoxkfuv$C_gsinbsto;
 	METHOD m_vrhsndhn codec (Lnet/minecraft/unmapped/C_thoxkfuv$C_gsinbsto;)Lcom/mojang/serialization/Codec;
+		ARG 0 callback
+	METHOD m_vvwexmft (Lnet/minecraft/unmapped/C_thoxkfuv$C_gsinbsto;Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+		ARG 1 instance
+	METHOD m_vwtbbemt getFrequencyFor (Lnet/minecraft/unmapped/C_cgkchrmc;)I
+		ARG 0 event
 	METHOD m_xlamdawt isOccluded (Lnet/minecraft/unmapped/C_cdctfzbn;Lnet/minecraft/unmapped/C_vgpupfxx;Lnet/minecraft/unmapped/C_vgpupfxx;)Z
 		ARG 0 world
 		ARG 1 posA
@@ -18,3 +45,10 @@ CLASS net/minecraft/unmapped/C_thoxkfuv net/minecraft/world/event/listener/Sculk
 		ARG 0 arg
 	METHOD m_zvuacjos (Lnet/minecraft/unmapped/C_thoxkfuv;)Ljava/lang/Integer;
 		ARG 0 arg
+	CLASS C_gsinbsto Callback
+		METHOD m_dnudxmju getRange ()I
+		METHOD m_dtdwvnzt isValid (Lnet/minecraft/unmapped/C_cgkchrmc;Lnet/minecraft/unmapped/C_cgkchrmc$C_cjhidzon;)Z
+			ARG 1 vibration
+			ARG 2 context
+		METHOD m_kydgbyrs callback (Lnet/minecraft/unmapped/C_bdwnwhiu;Lnet/minecraft/unmapped/C_sbgxqpya;Lnet/minecraft/unmapped/C_hynzadkk;Lnet/minecraft/unmapped/C_cgkchrmc;Lnet/minecraft/unmapped/C_astfners;Lnet/minecraft/unmapped/C_astfners;F)V
+		METHOD m_liujxsji listenerTags ()Lnet/minecraft/unmapped/C_ednuhnnn;
