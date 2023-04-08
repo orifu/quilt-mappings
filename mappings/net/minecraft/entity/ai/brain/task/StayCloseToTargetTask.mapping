@@ -1,1 +1,2 @@
 CLASS net/minecraft/unmapped/C_xwbaenjp net/minecraft/entity/ai/brain/task/StayCloseToTargetTask
+	METHOD m_mxvxpsri create (Ljava/util/function/Function;Ljava/util/function/Predicate;IIF)Lnet/minecraft/unmapped/C_mdnathub;

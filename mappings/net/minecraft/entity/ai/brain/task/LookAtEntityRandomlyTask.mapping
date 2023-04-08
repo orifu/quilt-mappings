@@ -1,0 +1,5 @@
+CLASS net/minecraft/unmapped/C_lygsomtd net/minecraft/entity/ai/brain/task/LookAtEntityRandomlyTask
+	METHOD m_aecmvuxy create (Lnet/minecraft/unmapped/C_ogavsvbr;FLnet/minecraft/unmapped/C_hvilmtvi;)Lnet/minecraft/unmapped/C_mdnathub;
+	METHOD m_ouvkkubu create (FLnet/minecraft/unmapped/C_hvilmtvi;)Lnet/minecraft/unmapped/C_mdnathub;
+	METHOD m_xpopbuma create (FLnet/minecraft/unmapped/C_hvilmtvi;Ljava/util/function/Predicate;)Lnet/minecraft/unmapped/C_mdnathub;
+	CLASS C_gvxfhlod RandomInterval

@@ -1,0 +1,3 @@
+CLASS net/minecraft/unmapped/C_iyiccpwt net/minecraft/entity/ai/brain/task/GoTowardsLookTargetTask
+	METHOD m_dgrcrase create (Ljava/util/function/Predicate;Ljava/util/function/Function;I)Lnet/minecraft/unmapped/C_yfpegcpm;
+	METHOD m_ftybsvym create (FI)Lnet/minecraft/unmapped/C_yfpegcpm;

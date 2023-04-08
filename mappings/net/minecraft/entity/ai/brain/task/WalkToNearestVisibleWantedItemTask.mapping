@@ -1,1 +1,5 @@
 CLASS net/minecraft/unmapped/C_rmejpnsf net/minecraft/entity/ai/brain/task/WalkToNearestVisibleWantedItemTask
+	METHOD m_fwikqmwv create (FZI)Lnet/minecraft/unmapped/C_mdnathub;
+	METHOD m_pgcykntt (Lnet/minecraft/unmapped/C_rcqaryar$C_loqvwuht;Lnet/minecraft/unmapped/C_ujlmiamh;Lnet/minecraft/unmapped/C_ujlmiamh;Ljava/util/function/Predicate;IFLnet/minecraft/unmapped/C_ujlmiamh;Lnet/minecraft/unmapped/C_ujlmiamh;Lnet/minecraft/unmapped/C_bdwnwhiu;Lnet/minecraft/unmapped/C_usxaxydn;J)Z
+		ARG 9 arg7
+	METHOD m_xkulsdab create (Ljava/util/function/Predicate;FZI)Lnet/minecraft/unmapped/C_mdnathub;
