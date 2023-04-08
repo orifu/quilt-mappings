@@ -1,16 +1,71 @@
 CLASS net/minecraft/unmapped/C_axouvzlg net/minecraft/block/entity/SignBlockEntity
+	FIELD f_gbeckede waxed Z
 	FIELD f_kglqtpyy TEXT_LINE_HEIGHT I
 	FIELD f_orlvhjhd editor Ljava/util/UUID;
 	FIELD f_xnbbfgln MAX_TEXT_LINE_WIDTH I
+	FIELD f_xwgesugz frontSignText Lnet/minecraft/unmapped/C_ralzcant;
+	FIELD f_yyrklxoa backSignText Lnet/minecraft/unmapped/C_ralzcant;
 	METHOD <init> (Lnet/minecraft/unmapped/C_hynzadkk;Lnet/minecraft/unmapped/C_txtbiemp;)V
 		ARG 1 pos
 		ARG 2 state
-	METHOD m_ouxwfbez updateListeners ()V
-	METHOD m_pggyiare (Lnet/minecraft/unmapped/C_jzrpycqo;ZLjava/util/List;)V
+	METHOD m_apdvaphb applySignTextToFilteredTexts (Lnet/minecraft/unmapped/C_jzrpycqo;Ljava/util/List;Lnet/minecraft/unmapped/C_ralzcant;)Lnet/minecraft/unmapped/C_ralzcant;
 		ARG 1 player
+		ARG 2 filteredTexts
 		ARG 3 signText
+	METHOD m_cbizgexi createDefaultSignText ()Lnet/minecraft/unmapped/C_ralzcant;
+	METHOD m_ciqmeakn setSignText (Lnet/minecraft/unmapped/C_ralzcant;Z)Z
+		ARG 1 signText
+		ARG 2 front
+	METHOD m_ecmbtbgz getSignBackText ()Lnet/minecraft/unmapped/C_ralzcant;
+	METHOD m_fozhvnrf setBackSignText (Lnet/minecraft/unmapped/C_ralzcant;)Z
+		ARG 1 signText
+	METHOD m_fzsygcfw getFacingSignText (Lnet/minecraft/unmapped/C_jzrpycqo;)Lnet/minecraft/unmapped/C_ralzcant;
+		ARG 1 player
+	METHOD m_gcdjvsby tick (Lnet/minecraft/unmapped/C_cdctfzbn;Lnet/minecraft/unmapped/C_hynzadkk;Lnet/minecraft/unmapped/C_txtbiemp;Lnet/minecraft/unmapped/C_axouvzlg;)V
+		ARG 3 sign
+	METHOD m_gxmzndcx parseLines (Lnet/minecraft/unmapped/C_ralzcant;)Lnet/minecraft/unmapped/C_ralzcant;
+		ARG 1 signText
+	METHOD m_iwgmpwqb parseLine (Lnet/minecraft/unmapped/C_rdaqiwdt;)Lnet/minecraft/unmapped/C_rdaqiwdt;
+		ARG 1 text
+	METHOD m_jonuiifh isPlayerTooFarToEdit (Ljava/util/UUID;)Z
+	METHOD m_jqyjqncg canRunCommandClickEvent (ZLnet/minecraft/unmapped/C_jzrpycqo;)Z
+		ARG 1 front
+		ARG 2 player
+	METHOD m_liuhjfiq updateSignText (Ljava/util/function/UnaryOperator;Z)Z
+		ARG 1 unaryOperator
+		ARG 2 front
+	METHOD m_mpmzlwzj isWaxed ()Z
+	METHOD m_nfzjwvwo (Lnet/minecraft/unmapped/C_hhlwcnih;Lnet/minecraft/unmapped/C_oivssbvb;)V
+		ARG 1 backSignText
+	METHOD m_nluapjgr (Lnet/minecraft/unmapped/C_hhlwcnih;Lnet/minecraft/unmapped/C_oivssbvb;)V
+		ARG 1 frontSignText
+	METHOD m_ouxwfbez updateListeners ()V
+	METHOD m_pggyiare updateSignTexts (Lnet/minecraft/unmapped/C_jzrpycqo;ZLjava/util/List;)V
+		ARG 1 player
+		ARG 2 front
+		ARG 3 filteredTexts
+	METHOD m_pjiruyhd withWaxed (Z)Z
+		ARG 1 waxed
+	METHOD m_qfqfsqzg createCommandSource (Lnet/minecraft/unmapped/C_jzrpycqo;Lnet/minecraft/unmapped/C_cdctfzbn;Lnet/minecraft/unmapped/C_hynzadkk;)Lnet/minecraft/unmapped/C_pennblrk;
+		ARG 0 player
+	METHOD m_rtveqfjy isPlayerFacingFront (Lnet/minecraft/unmapped/C_jzrpycqo;)Z
+		ARG 1 player
+	METHOD m_rvtiporj (Lnet/minecraft/unmapped/C_ralzcant;)V
+		ARG 1 frontSignMessages
 	METHOD m_sdxgspoq getMaxTextLineWidth ()I
+	METHOD m_spnxewno getSignFrontText ()Lnet/minecraft/unmapped/C_ralzcant;
+	METHOD m_tdhknmjp getSignText (Z)Lnet/minecraft/unmapped/C_ralzcant;
+		ARG 1 front
+	METHOD m_thcrvyjp setFrontSignText (Lnet/minecraft/unmapped/C_ralzcant;)Z
+		ARG 1 signText
+	METHOD m_ulvxaoqt runCommandClickEvent (Lnet/minecraft/unmapped/C_jzrpycqo;Lnet/minecraft/unmapped/C_cdctfzbn;Lnet/minecraft/unmapped/C_hynzadkk;Z)Z
+		ARG 1 player
+		ARG 4 front
 	METHOD m_wlczwenn setEditor (Ljava/util/UUID;)V
 		ARG 1 editor
+	METHOD m_wyshytgr (Lnet/minecraft/unmapped/C_jzrpycqo;Ljava/util/List;Lnet/minecraft/unmapped/C_ralzcant;)Lnet/minecraft/unmapped/C_ralzcant;
+		ARG 3 signText
+	METHOD m_yesfjplu clearInvalidEditor (Lnet/minecraft/unmapped/C_axouvzlg;Lnet/minecraft/unmapped/C_cdctfzbn;Ljava/util/UUID;)V
+		ARG 1 sign
 	METHOD m_ykxtknwa getTextLineHeight ()I
 	METHOD m_zetnqwey getEditor ()Ljava/util/UUID;

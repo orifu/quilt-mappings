@@ -1,0 +1,8 @@
+CLASS net/minecraft/unmapped/C_znovvjgy net/minecraft/item/SignModifier
+	METHOD m_tlgwloak onUseOnSign (Lnet/minecraft/unmapped/C_cdctfzbn;Lnet/minecraft/unmapped/C_axouvzlg;ZLnet/minecraft/unmapped/C_jzrpycqo;)Z
+		ARG 2 sign
+		ARG 3 playerFacingFront
+		ARG 4 player
+	METHOD m_ygweigmv canUseOnSign (Lnet/minecraft/unmapped/C_ralzcant;Lnet/minecraft/unmapped/C_jzrpycqo;)Z
+		ARG 1 signText
+		ARG 2 player
