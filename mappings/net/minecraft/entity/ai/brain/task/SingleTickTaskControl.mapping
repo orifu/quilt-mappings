@@ -1,0 +1,2 @@
+CLASS net/minecraft/unmapped/C_yfpegcpm net/minecraft/entity/ai/brain/task/SingleTickTaskControl
+	FIELD f_hcebkdbk status Lnet/minecraft/unmapped/C_wbtjxfbq$C_sqbcjfsz;
