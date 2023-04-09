@@ -1,2 +1,6 @@
 CLASS net/minecraft/unmapped/C_ksnoznjc net/minecraft/block/SnifferEggBlock
+	FIELD f_acdlfjnn HATCH Lnet/minecraft/unmapped/C_vltzvhxi;
 	FIELD f_zlruyucs SHAPE Lnet/minecraft/unmapped/C_zscvhwbd;
+	METHOD m_hcphkhen getHatchStage (Lnet/minecraft/unmapped/C_txtbiemp;)I
+	METHOD m_ucrlmnvf canHatch (Lnet/minecraft/unmapped/C_txtbiemp;)Z
+	METHOD m_zhmdbmip isHatchBeingBoosted (Lnet/minecraft/unmapped/C_peaveboq;Lnet/minecraft/unmapped/C_hynzadkk;)Z

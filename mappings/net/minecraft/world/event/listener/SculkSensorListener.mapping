@@ -18,3 +18,5 @@ CLASS net/minecraft/unmapped/C_thoxkfuv net/minecraft/world/event/listener/Sculk
 		ARG 0 arg
 	METHOD m_zvuacjos (Lnet/minecraft/unmapped/C_thoxkfuv;)Ljava/lang/Integer;
 		ARG 0 arg
+	CLASS C_gsinbsto
+		METHOD m_dnudxmju getRange ()I

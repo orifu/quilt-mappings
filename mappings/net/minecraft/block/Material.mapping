@@ -1,6 +1,6 @@
 CLASS net/minecraft/unmapped/C_ccpykexk net/minecraft/block/Material
 	FIELD f_ajzhwgdj PLANT Lnet/minecraft/unmapped/C_ccpykexk;
-		COMMENT Material for plants such as flowers and crops
+		COMMENT Material for plants such as flowers and crops.
 	FIELD f_bdwnlfvh solid Z
 	FIELD f_biptfbrk replaceable Z
 	FIELD f_ituzbsbs blocksLight Z
@@ -14,6 +14,12 @@ CLASS net/minecraft/unmapped/C_ccpykexk net/minecraft/block/Material
 	FIELD f_okfezhhs blocksMovement Z
 	FIELD f_tkenximn STONE Lnet/minecraft/unmapped/C_ccpykexk;
 		COMMENT Material for blocks that are stone or made from it, and generally prefer to be broken by a pickaxe.
+	METHOD <init> (Lnet/minecraft/unmapped/C_ifcgjcqy;ZZZZ)V
+		ARG 1 color
+		ARG 2 solid
+		ARG 3 blocksMovement
+		ARG 4 blocksLight
+		ARG 5 replaceable
 	METHOD m_klliydvg blocksMovement ()Z
 	METHOD m_sorlinjz isSolid ()Z
 	METHOD m_treogbrd blocksLight ()Z
