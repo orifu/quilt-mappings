@@ -1,11 +1,27 @@
 CLASS net/minecraft/unmapped/C_hzdaoazh net/minecraft/block/DecoratedPotPatterns
+	FIELD f_afalcinu POTTERY_PATTERN_SHEAF_NAME Ljava/lang/String;
 	FIELD f_auhlbqrf POTTERY_PATTERN_SKULL_NAME Ljava/lang/String;
 	FIELD f_cpwmrhfm DECORATED_POT_SIDE_NAME Ljava/lang/String;
+	FIELD f_ecdjqarq POTTERY_PATTERN_SHELTER_NAME Ljava/lang/String;
 	FIELD f_eomvlzyj POTTERY_PATTERN_ARMS_UP_NAME Ljava/lang/String;
+	FIELD f_gdqexcmp POTTERY_PATTERN_FRIEND_NAME Ljava/lang/String;
+	FIELD f_iloezfsi POTTERY_PATTERN_BLADE_NAME Ljava/lang/String;
 	FIELD f_iuwqdcay DECORATED_POT_BASE_NAME Ljava/lang/String;
 	FIELD f_jpiddhhm POTTERY_PATTERN_ARCHER_NAME Ljava/lang/String;
+	FIELD f_kqqmjpaa POTTERY_PATTERN_HOWL_NAME Ljava/lang/String;
+	FIELD f_nmrgfmmp POTTERY_PATTERN_BURN_NAME Ljava/lang/String;
+	FIELD f_oyagcvsm POTTERY_PATTERN_MOURNER_NAME Ljava/lang/String;
 	FIELD f_pkicorcb POTTERY_PATTERN_PRIZE_NAME Ljava/lang/String;
+	FIELD f_poauuija POTTERY_PATTERN_PLENTY_NAME Ljava/lang/String;
+	FIELD f_pxhwzsee POTTERY_PATTERN_ANGLER_NAME Ljava/lang/String;
+	FIELD f_tavnvosr POTTERY_PATTERN_HEARTBREAK_NAME Ljava/lang/String;
 	FIELD f_tssagzls PATTERNS_BY_SHARDS Ljava/util/Map;
+	FIELD f_updwwzcx POTTERY_PATTERN_MINER_NAME Ljava/lang/String;
+	FIELD f_vbkariim POTTERY_PATTERN_EXPLORER_NAME Ljava/lang/String;
+	FIELD f_vlwuuxyy POTTERY_PATTERN_DANGER_NAME Ljava/lang/String;
+	FIELD f_wbpstdbr POTTERY_PATTERN_HEART_NAME Ljava/lang/String;
+	FIELD f_ydoihotp POTTERY_PATTERN_SNORT_NAME Ljava/lang/String;
+	FIELD f_zzyqdfnv POTTERY_PATTERN_BREWER_NAME Ljava/lang/String;
 	METHOD m_aoeizaaw registryKey (Ljava/lang/String;)Lnet/minecraft/unmapped/C_xhhleach;
 		ARG 0 id
 	METHOD m_hoejuqye registerPatterns (Lnet/minecraft/unmapped/C_tqxyjqsk;)Ljava/lang/String;
