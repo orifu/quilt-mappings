@@ -44,6 +44,10 @@ CLASS net/minecraft/unmapped/C_hbdlqish net/minecraft/block/RedstoneWireBlock
 		ARG 2 random
 		ARG 3 pos
 		ARG 4 color
+		ARG 5 direction
+		ARG 6 offsetDir
+		ARG 7 offsetLowerBound
+		ARG 8 offsetUpperBound
 	METHOD m_nxtwfpnw updateOffsetNeighbors (Lnet/minecraft/unmapped/C_cdctfzbn;Lnet/minecraft/unmapped/C_hynzadkk;)V
 		ARG 1 world
 		ARG 2 pos
