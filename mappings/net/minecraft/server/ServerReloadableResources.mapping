@@ -1,5 +1,6 @@
 CLASS net/minecraft/unmapped/C_migzkpst net/minecraft/server/ServerReloadableResources
 	COMMENT Represents the server reloadable resources.
+	FIELD f_aafiafdg lootManager Lnet/minecraft/unmapped/C_uxsnhxlb;
 	FIELD f_cqvnljsk recipes Lnet/minecraft/unmapped/C_hjseusrb;
 	FIELD f_egatpqbd commandBuildContext Lnet/minecraft/unmapped/C_bprdujxm$C_rguunmyd;
 	FIELD f_izcsyrwb functions Lnet/minecraft/unmapped/C_coevuhwv;
@@ -21,6 +22,7 @@ CLASS net/minecraft/unmapped/C_migzkpst net/minecraft/server/ServerReloadableRes
 		ARG 0 entry
 	METHOD m_phzgjlfn (Lnet/minecraft/unmapped/C_xhhleach;Ljava/util/Map$Entry;)Lnet/minecraft/unmapped/C_ednuhnnn;
 		ARG 1 entry
+	METHOD m_qhooynop getLootManager ()Lnet/minecraft/unmapped/C_uxsnhxlb;
 	METHOD m_qobkrmhz getReloaders ()Ljava/util/List;
 		COMMENT {@return the server-specific resource reloaders}
 	METHOD m_qzzzeens getRecipes ()Lnet/minecraft/unmapped/C_hjseusrb;
