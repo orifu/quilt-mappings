@@ -43,6 +43,12 @@ CLASS net/minecraft/unmapped/C_duybclay net/minecraft/block/WallBlock
 		ARG 2 tall
 		ARG 3 low
 	METHOD m_rxtmalgb getShapeMap (FFFFFF)Ljava/util/Map;
+		ARG 1 poleHalfWidth
+		ARG 2 wallHalfWidth
+		ARG 3 poleMaxY
+		ARG 4 wallMinY
+		ARG 5 wallMaxY
+		ARG 6 wallConnectedMaxY
 	METHOD m_uavsfxkd isConnected (Lnet/minecraft/unmapped/C_txtbiemp;Lnet/minecraft/unmapped/C_vzlztuyw;)Z
 		ARG 0 state
 		ARG 1 property
