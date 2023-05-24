@@ -1,6 +1,8 @@
 CLASS net/minecraft/unmapped/C_iakykpgh net/minecraft/loot/context/LootContext
 	FIELD f_gndtbaxx random Lnet/minecraft/unmapped/C_rlomrsco;
 	FIELD f_urhluvna parameters Lnet/minecraft/unmapped/C_nzsnkdtl;
+	METHOD <init> (Lnet/minecraft/unmapped/C_nzsnkdtl;Lnet/minecraft/unmapped/C_rlomrsco;Lnet/minecraft/unmapped/C_srnkfpki;)V
+		ARG 1 parameters
 	METHOD m_izzeghzt getWorld ()Lnet/minecraft/unmapped/C_bdwnwhiu;
 	METHOD m_tjqtsntr drop (Lnet/minecraft/unmapped/C_ncpywfca;Ljava/util/function/Consumer;)V
 		ARG 1 id
